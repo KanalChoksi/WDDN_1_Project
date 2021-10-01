@@ -107,7 +107,7 @@
             </tr>
         </table>
         
-        <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
+        <asp:Label ID="Label1" runat="server" ForeColor="Red"></asp:Label>
         
     </form>
     

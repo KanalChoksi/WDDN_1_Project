@@ -7,15 +7,21 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            height: 38px;
+            margin-bottom: 0px;
+        }
+    </style>
 </head>
 <body style="margin-left: 0px">
     <form id="form1" runat="server">
-        <div>
+        <div style="background-color: #C0C0C0" class="auto-style1">
             
             <asp:HyperLink ID="Order1" runat="server" Font-Bold="True" Font-Size="Larger" ForeColor="Blue" NavigateUrl="~/Admin/AdminOrder.aspx">Orders</asp:HyperLink>
             
 
-                &nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;
             
 
                 <%

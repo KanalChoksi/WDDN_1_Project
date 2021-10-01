@@ -71,10 +71,14 @@
     <Content Include="Admin\AdminLogin.aspx" />
     <Content Include="Admin\AdminLogout.aspx" />
     <Content Include="Admin\AdminOrder.aspx" />
+    <Content Include="Admin\AdminView.aspx" />
     <Content Include="customer.aspx" />
     <Content Include="FirstPage.aspx" />
-    <Content Include="Images\tittle.jfif" />
-    <Content Include="Images\Tittle2.png" />
+    <Content Include="image\Taxi-Image-1.jpg" />
+    <Content Include="image\Taxi-Image-2.jfif" />
+    <Content Include="image\Taxi-Image-3.png" />
+    <Content Include="image\Taxi-Image-4.jpg" />
+    <Content Include="image\Taxi-Image-5.jpg" />
     <Content Include="Index.aspx" />
     <Content Include="login.aspx" />
     <Content Include="Web.config" />
@@ -115,6 +119,15 @@
     <Compile Include="Admin\AdminOrder.aspx.designer.cs">
       <DependentUpon>AdminOrder.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\AdminView.aspx.cs">
+      <DependentUpon>AdminView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminView.aspx.designer.cs">
+      <DependentUpon>AdminView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Class11.cs" />
+    <Compile Include="Admin\taxi_class.cs" />
     <Compile Include="customer.aspx.cs">
       <DependentUpon>customer.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -162,6 +175,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Code\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

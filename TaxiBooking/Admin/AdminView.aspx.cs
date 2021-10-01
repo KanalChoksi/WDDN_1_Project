@@ -6,18 +6,19 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data;
 using System.Data.SqlClient;
-using System.Data.SqlTypes;
-
 
 namespace TaxiBooking.Admin
 {
-    public partial class AdminOrder : System.Web.UI.Page
+    public partial class AdminView : System.Web.UI.Page
     {
         
         protected void Page_Load(object sender, EventArgs e)
         {
             
-
+            
+            
         }
+
+        
     }
 }
