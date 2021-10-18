@@ -43,7 +43,7 @@ namespace TaxiBooking
                 {
                     Label2.Text = "Sorry!! This ride is currently not available";
                 }
-                //Response.Redirect("payment.aspx");
+                Response.Redirect("BookNow.aspx");
             }
             else
             {
