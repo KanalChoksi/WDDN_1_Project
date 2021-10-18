@@ -37,7 +37,7 @@
 
 
 
-                <a href="#" class="navbar-brand">Taxi Cab</a>
+                <a href="Index.aspx" class="navbar-brand">Taxi Cab</a>
 
 
 
@@ -54,15 +54,18 @@
                             <a href="#questions" class="nav-link">Frequently Asked Questions</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#contact" class="nav-link">Contact</a>
+                            <a href="#footer" class="nav-link">Contact</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" >
                             <a href="login.aspx" class="nav-link">Login</a>
                        
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Sign In</a>
+                            <a href="customer.aspx" class="nav-link">Sign Up</a>
                         </li>
+                        <%-- <li class="nav-item">
+                            <a href="Index.aspx" class="nav-link" id="logout">Sign Out</a>
+                        </li>--%>
                     </ul>
                 </div>
 
@@ -84,6 +87,18 @@
     <%-- Footer --%>
 
     <footer class="p-5 text-white text-center position-relative" id="footer">
+        
+    <%-- Contact us --%>
+
+     <section class="p-1" id="contact">
+          <div class="container">
+              <div class="row">
+                  <h2>Contact Info</h2>
+                  <p>A/87 Monalisa, Near Iscon Temple, Vadodara</p>
+                  <p>+91 88666 85974</p>
+              </div>
+          </div>
+      </section>
           <div class="container">
      
 

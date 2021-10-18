@@ -51,7 +51,7 @@
 
 
 
-                <a href="#" class="navbar-brand">Taxi Cab</a>
+                <a href="Index.aspx" class="navbar-brand">Taxi Cab</a>
 
 
 
@@ -75,7 +75,7 @@
                        
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Sign In</a>
+                            <a href="customer.aspx" class="nav-link">Sign Up</a>
                         </li>
                     </ul>
                 </div>
@@ -90,12 +90,12 @@
            <div class="row g-8 text-center" id="btn">
    
                <div class="col" id="col1">
-                    <a href="driver.aspx"><h2 id="link">Sign In to Drive 
+                    <a href="Admin/AdminLogin.aspx"><h2 id="link">Sign In as Admin 
                 <i class="bi bi-arrow-right text-dark"></i></h2>
                </a>
                </div>
                <div class="col" id="col2"> 
-                    <a href="customer.aspx"><h2 id="link1">Sign In to Ride
+                    <a href="customerlogin.aspx"><h2 id="link1">Sign In to Ride
                 <i class="bi bi-arrow-right"></i></h2>
                 </a>
                </div>

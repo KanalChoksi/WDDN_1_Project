@@ -11,7 +11,10 @@ namespace TaxiBooking
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if(Session["login"] != null)
+            {
+                //logout.Style = "visibility : hidden";
+            }
         }
 
     }
