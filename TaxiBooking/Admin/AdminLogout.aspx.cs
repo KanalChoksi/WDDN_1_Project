@@ -12,7 +12,7 @@ namespace TaxiBooking.Admin
         protected void Page_Load(object sender, EventArgs e)
         {
             Session.Clear();
-            Response.Redirect("../FirstPage.aspx");
+            Response.Redirect("../login.aspx");
 
         }
     }
