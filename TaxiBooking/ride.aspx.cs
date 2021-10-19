@@ -33,11 +33,15 @@ namespace TaxiBooking
                 string destination = TextBox2.Text;
                 if ((origin == "Ahmedabad" && destination == "Nadiad") || (origin == "Nadiad" && destination == "Ahmedabad"))
                 {
-                    Session["kilometers"] = 120;
+                    Session["kilometers"] = 70;
                 }
-                else if((origin == "Vadodara" && destination == "Nadiad") || (origin == "Vadodara" && destination == "Vadodara"))
+                else if((origin == "Vadodara" && destination == "Nadiad") || (origin == "Nadiad" && destination == "Vadodara"))
                 {
                     Session["kilometers"] = 70;
+                }
+                else if ((origin == "Vadodara" && destination == "Ahmedabad") || (origin == "Ahmedabad" && destination == "Vadodara"))
+                {
+                    Session["kilometers"] = 120;
                 }
                 else
                 {
