@@ -83,6 +83,7 @@
     <Content Include="App_Data\wddnproject_log.ldf">
       <DependentUpon>wddnproject.mdf</DependentUpon>
     </Content>
+    <Content Include="BookNow.aspx" />
     <Content Include="customer.aspx" />
     <Content Include="FirstPage.aspx" />
     <Content Include="Global.asax" />
@@ -144,6 +145,13 @@
     </Compile>
     <Compile Include="Admin\Class11.cs" />
     <Compile Include="Admin\taxi_class.cs" />
+    <Compile Include="BookNow.aspx.cs">
+      <DependentUpon>BookNow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BookNow.aspx.designer.cs">
+      <DependentUpon>BookNow.aspx</DependentUpon>
+    </Compile>
     <Compile Include="customer.aspx.cs">
       <DependentUpon>customer.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
