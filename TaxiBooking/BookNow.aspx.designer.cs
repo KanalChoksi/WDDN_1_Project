@@ -15,7 +15,6 @@ namespace TaxiBooking
     {
 
         /// <summary>
-<<<<<<< HEAD
         /// label control.
         /// </summary>
         /// <remarks>
@@ -25,8 +24,6 @@ namespace TaxiBooking
         protected global::System.Web.UI.WebControls.Label label;
 
         /// <summary>
-=======
->>>>>>> 9034f8ade176b02c2994d9c6d9b950fd28050205
         /// Label1 control.
         /// </summary>
         /// <remarks>

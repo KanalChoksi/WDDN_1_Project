@@ -11,7 +11,7 @@ namespace TaxiBooking
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-<<<<<<< HEAD
+
             if (Session["login"] != null)
             {
                 TextBox5.Text = ((int)Session["kilometers"] * 10).ToString();
@@ -22,14 +22,7 @@ namespace TaxiBooking
         {
 
             label.Text = "<h1>Payment Done successfully !!</h1>";
-=======
 
-        }
-        protected void Button1_Click(object sender, EventArgs e)
-        {
-            Response.Write("<script>alert(' Payment Done Successfully ');</script>");
->>>>>>> 9034f8ade176b02c2994d9c6d9b950fd28050205
-        }
 
     }
 }
