@@ -32,7 +32,7 @@
         </Columns>
     </asp:GridView>
     <p>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:Admin_dbConnectionString %>" DeleteCommand="DELETE FROM [Taxi] WHERE [Id] = @Id" InsertCommand="INSERT INTO [Taxi] ([taxi_name], [taxi_num], [taxi_desc], [rent_per_km], [taxi_image], [status]) VALUES (@taxi_name, @taxi_num, @taxi_desc, @rent_per_km, @taxi_image, @status)" SelectCommand="SELECT * FROM [Taxi]" UpdateCommand="UPDATE [Taxi] SET [taxi_name] = @taxi_name, [taxi_num] = @taxi_num, [taxi_desc] = @taxi_desc, [rent_per_km] = @rent_per_km, [taxi_image] = @taxi_image, [status] = @status WHERE [Id] = @Id">
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:Admin_db%>" DeleteCommand="DELETE FROM [Taxi] WHERE [Id] = @Id" InsertCommand="INSERT INTO [Taxi] ([taxi_name], [taxi_num], [taxi_desc], [rent_per_km], [taxi_image], [status]) VALUES (@taxi_name, @taxi_num, @taxi_desc, @rent_per_km, @taxi_image, @status)" SelectCommand="SELECT * FROM [Taxi]" UpdateCommand="UPDATE [Taxi] SET [taxi_name] = @taxi_name, [taxi_num] = @taxi_num, [taxi_desc] = @taxi_desc, [rent_per_km] = @rent_per_km, [taxi_image] = @taxi_image, [status] = @status WHERE [Id] = @Id">
             <DeleteParameters>
                 <asp:Parameter Name="Id" Type="Int32" />
             </DeleteParameters>

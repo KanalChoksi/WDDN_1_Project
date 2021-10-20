@@ -137,31 +137,31 @@
     
     <%-- Auto Complete --%>
     <script>
-        google.maps.event.addDomListener(window, 'load', function () {
-            try {
-                var input = document.getElementById('TextBox1');
-                var autocomplete = new google.maps.places.Autocomplete(input);
-                autocomplete.setTypes('changetype-geocode');
-            }
-            catch (err) {
-                // alert(err);
-            }
-        });
+        //google.maps.event.addDomListener(window, 'load', function () {
+        //    try {
+        //        var input = document.getElementById('TextBox1');
+        //        var autocomplete = new google.maps.places.Autocomplete(input);
+        //        autocomplete.setTypes('changetype-geocode');
+        //    }
+        //    catch (err) {
+        //        // alert(err);
+        //    }
+        //});
 
-        google.maps.event.addDomListener(window, 'load', function () {
-            var input = document.getElementById('TextBox2');
+        //google.maps.event.addDomListener(window, 'load', function () {
+        //    var input = document.getElementById('TextBox2');
 
-            var autocomplete;
-            autocomplete = new google.maps.places.Autocomplete(input);
+        //    var autocomplete;
+        //    autocomplete = new google.maps.places.Autocomplete(input);
 
-            google.maps.event.addDomListener(autocomplete, 'place_changed', function () {
-                var near_place = autocomplete.getPlace();
-                //console.log("Place is : "+near_place);
-                //var latitude = near_place.geometry.location.lat();
-                //document.getElementById("label") = latitude;
-                //document.getElementById("label1") = near_place;
-            });
-        });
+        //    google.maps.event.addDomListener(autocomplete, 'place_changed', function () {
+        //        var near_place = autocomplete.getPlace();
+        //        //console.log("Place is : "+near_place);
+        //        //var latitude = near_place.geometry.location.lat();
+        //        //document.getElementById("label") = latitude;
+        //        //document.getElementById("label1") = near_place;
+        //    });
+        //});
 
 
     </script>

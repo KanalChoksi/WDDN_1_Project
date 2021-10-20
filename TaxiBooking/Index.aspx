@@ -178,8 +178,7 @@
                     map: map
                 });
             }
-            https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,
-            +Mountain + View, +CA & key=YOUR_API_KEY
+           
             $.ajax({
                 url='https://maps.googleapis.com/maps/api/geocode/json?latlng=22.3032,73.1818?key=',
                 success: function (result) {

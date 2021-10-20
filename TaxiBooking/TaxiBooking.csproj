@@ -79,6 +79,10 @@
     <Content Include="Admin\AdminLogout.aspx" />
     <Content Include="Admin\AdminOrder.aspx" />
     <Content Include="Admin\AdminView.aspx" />
+    <Content Include="App_Data\Admin_db.mdf" />
+    <Content Include="App_Data\Admin_db_log.ldf">
+      <DependentUpon>Admin_db.mdf</DependentUpon>
+    </Content>
     <Content Include="App_Data\wddnproject.mdf" />
     <Content Include="App_Data\wddnproject_log.ldf">
       <DependentUpon>wddnproject.mdf</DependentUpon>

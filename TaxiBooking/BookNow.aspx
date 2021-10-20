@@ -2,21 +2,21 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style>
 
-        .auto - style1 {
-            text - align: center;
+        .auto-style1 {
+            text-align: center;
         }
-        .auto - style2 {
+        .auto-style2 {
             width: 91%;
             height: 509px;
             border: 2px solid #999999;
-            background - color: #C0C0C0;
+            background-color: #C0C0C0;
         }
-        .auto - style3 {
-            text - align: center;
+        .auto-style3 {
+            text-align: center;
             width: 243px;
         }
-        .auto - style4 {
-            text - align: left;
+        .auto-style4 {
+            text-align: left;
         }
 
     </style>
